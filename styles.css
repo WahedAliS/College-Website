@@ -1,0 +1,158 @@
+body {
+    /* font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+}
+#logo{
+    width: 40px;
+    height: 30px;
+}
+
+header {
+    background-color: #d34f4f;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+    font-size:40px;
+    vertical-align: middle;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #575757;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+.hero {
+    background: url('images/background1.jpg') no-repeat center center/cover;
+    color: rgb(253, 70, 3);
+    padding: 60px 10px;
+    text-align: center;
+    height: 250px;
+    
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.hero .btn {
+    background-color: #ef1a1a;
+    color: rgb(254, 252, 252);
+    /* margin: 10px 50px; */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.hero .btn:hover {
+    background-color: #575757;
+}
+
+main {
+    padding: 20px 0;
+}
+
+main .about, main .departments {
+    margin-bottom: 40px;
+}
+
+main .about h2, main .departments h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main .about p, main .departments p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.department-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.department {
+    background-color: white;
+    padding: 20px 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.department h3 {
+    font-size: 1.8em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 45%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
